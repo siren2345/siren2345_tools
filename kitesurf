@@ -1,0 +1,4 @@
+#!/bin/sh
+# Kitesurf shell wrapper.
+# Usage: kitesurf <markdown|html|links|screenshot|pdf> <url> [--out FILE] [--wait networkidle2]
+exec node "$(dirname "$0")/kitesurf.js" "$@"

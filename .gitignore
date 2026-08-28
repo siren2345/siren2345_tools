@@ -1,0 +1,9 @@
+# Secret token — never commit
+creds.env
+
+# scratch / local output artifacts
+*.png
+*.jpg
+*.jpeg
+*.pdf
+.DS_Store
